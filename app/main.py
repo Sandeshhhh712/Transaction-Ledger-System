@@ -5,3 +5,5 @@ app = FastAPI()
 @app.on_event("startup")
 def startup_event():
     create_db_and_tables()
+
+#test
